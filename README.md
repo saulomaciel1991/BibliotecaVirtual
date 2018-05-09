@@ -1,7 +1,3 @@
-![Clarity](logo.png)
-
-Clarity Seed
-============
 This is a seed project for Angular 2 applications using [Clarity](https://github.com/vmware/clarity). For more information on the Clarity Design System, visit the [Clarity website](https://vmware.github.io/clarity/).
 
 We offer this seed project in three different build systems:
@@ -119,3 +115,6 @@ The clarity-seed project is licensed under the MIT license.
 ## Feedback
 
 If you find a bug or want to request a new feature, please open a [GitHub issue](https://github.com/vmware/clarity-seed/issues).
+=======
+# BibliotecaVirtual
+Projeto acadêmico - Programação WEB - Angular/Clarity 
