@@ -16,7 +16,8 @@ export const ROUTES: Routes = [
     {path: '', redirectTo: 'home', pathMatch: 'full'},
     {path: 'home', component: HomeComponent},
     {path: 'about', component: AboutComponent},
-    {path: 'library', component: LibraryComponent}
+    {path: 'library', component: LibraryComponent},
+    {path: 'book', component: BookComponent}
 ];
 
 export const ROUTING: ModuleWithProviders = RouterModule.forRoot(ROUTES);
