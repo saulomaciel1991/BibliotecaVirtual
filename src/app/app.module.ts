@@ -10,6 +10,7 @@ import { HomeComponent } from "./home/home.component";
 import { AboutComponent } from "./about/about.component";
 import { BookComponent } from './book/book.component';
 import { LibraryComponent } from './library/library.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,8 @@ import { LibraryComponent } from './library/library.component';
         AboutComponent,
         HomeComponent,
         BookComponent,
-        LibraryComponent
+        LibraryComponent,
+        CategoriesComponent
     ],
     imports: [
         BrowserAnimationsModule,

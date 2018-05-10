@@ -8,16 +8,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
-import { BookComponent } from './book/book.component';
-import { LibraryComponent } from './library/library.component';
 
 
 export const ROUTES: Routes = [
     {path: '', redirectTo: 'home', pathMatch: 'full'},
     {path: 'home', component: HomeComponent},
-    {path: 'about', component: AboutComponent},
-    {path: 'library', component: LibraryComponent},
-    {path: 'book', component: BookComponent}
+    {path: 'about', component: AboutComponent}
 ];
 
 export const ROUTING: ModuleWithProviders = RouterModule.forRoot(ROUTES);
